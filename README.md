@@ -4,6 +4,7 @@
 [![React Version](https://img.shields.io/badge/React-18.x-blue?logo=react)](https://react.dev/)
 [![Firebase Status](https://img.shields.io/badge/Firebase-Auth%20%26%20Firestore-orange?logo=firebase)](https://firebase.google.com/)
 
+🌐 **Live Demo Website**: [gamified-site.vercel.app](https://gamified-site.vercel.app)
 
 ---
 
@@ -169,7 +170,7 @@ Make sure you have **Node.js** installed on your system (Recommended: Node.js 18
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Yash21743/gamified_site.git
 cd gamified-learning-platform
 ```
 

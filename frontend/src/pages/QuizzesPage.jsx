@@ -180,8 +180,8 @@ export default function QuizzesPage() {
         /* ── HERO ── */
         .qp-hero {
           background: #1a0208;
-          padding: 130px 5% 0;
-          min-height: 94vh;
+          padding: 120px 5% 20px;
+          min-height: auto;
           display: flex; align-items: center;
           position: relative; overflow: hidden;
         }
@@ -195,7 +195,7 @@ export default function QuizzesPage() {
         .qp-hero-inner {
           max-width: 1140px; margin: 0 auto; width: 100%;
           display: grid; grid-template-columns: 1fr 1fr;
-          gap: 48px; align-items: center; padding-bottom: 64px;
+          gap: 48px; align-items: center; padding-bottom: 30px;
         }
         .qp-hero-badge {
           display: inline-flex; align-items: center; gap: 8px;
@@ -239,7 +239,7 @@ export default function QuizzesPage() {
         .qp-btn-outline:hover { background: rgba(255,255,255,0.1); border-color: #fff; }
 
         /* Hero images */
-        .qp-hero-imgs { position: relative; height: 380px; display: flex; align-items: center; justify-content: center; width: 100%; }
+        .qp-hero-imgs { position: relative; height: 320px; display: flex; align-items: center; justify-content: center; width: 100%; }
         .qp-img-single {
           width: 90%; height: 90%;
           border-radius: 24px; overflow: hidden;
